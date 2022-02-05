@@ -9,7 +9,10 @@ import TabItem from '@theme/TabItem';
 
 ## Installation
 
-After getting the API key, follow the steps below to install your package from here.
+### What you'll need
+
+- [React Native](https://reactnative.dev/) version 60 or above:
+- iOS 10+
 
 <Tabs
 defaultValue="npm"
@@ -36,16 +39,39 @@ values={[
 
 </Tabs>
 
+<Tabs
+defaultValue="ios"
+values={[
+{label: 'iOS', value: 'ios'},
+{label: 'Android', value: 'android'},
+]}>
+
+<TabItem value="ios">
+
 Install the Pod library:
 
 ```
  pod install
 ```
 
+</TabItem>
+
+<TabItem value="android">
+
+Unfortunately we do not support Android at the moment. 😢
+
+Please contact us if you'd like to see support here.
+
+</TabItem>
+
+</Tabs>
+
 ## Initialize the library
 
-```js
-import AirSnap from '@airsnap/react-native'
+After getting the API key, initialize AirSnap.
 
-AirSnap.start('<api-key>')
+```js
+import AirSnap from '@airsnap/react-native';
+
+AirSnap.start('<api-key>');
 ```

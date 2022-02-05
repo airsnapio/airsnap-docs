@@ -50,7 +50,9 @@ let package = Package(
 
 <TabItem value="carthage">
 
-Currently unsupported. Please [create an issue](https://github.com/airsnapio/airsnap-ios/issues/new) if you'd like to see support here.
+Unfortunately we do not support Carthage at the moment. 😢
+
+Please [create an issue](https://github.com/airsnapio/airsnap-ios/issues/new) if you'd like to see support here.
 
 </TabItem>
 </Tabs>

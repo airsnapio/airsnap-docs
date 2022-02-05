@@ -15,7 +15,3 @@ Then…
 
 - Create a project
 - Create an API key within the project
-
-### What you'll need
-
-- [React Native](https://reactnative.dev/) version 60 or above:
