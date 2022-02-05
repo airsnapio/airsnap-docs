@@ -9,10 +9,11 @@ import TabItem from '@theme/TabItem';
 
 AirSnap prioritizes privacy and therefore enables privacy masking by default. The masking will automatically be applied to the session replay, network requests and events.
 
-```
-AirSnap's session replay is based on drawing operations, where text, images, and personal data are
-masked at the source by default, such that masked data never leaves a user's device.
-```
+AirSnap's session replay is based on drawing operations, where text, images, and personal data are masked at the source by default, such that masked data never leaves a user's device.
+
+import PrivacyImageUrl from '@site/static/img/privacy-mask.png';
+
+<img src={PrivacyImageUrl} />
 
 You can disable the privacy mask by passing the following parameter to `AirSnap.start`
 
