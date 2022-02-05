@@ -25,8 +25,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/airsnapio/airsnap-docs/tree/master/',
+          editUrl: 'https://github.com/airsnapio/airsnap-docs/tree/master/',
         },
         blog: false,
         theme: {
