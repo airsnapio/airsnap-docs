@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const config = {
   title: 'AirSnap',
   tagline: 'Session Replay for Mobile Apps',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://docs.airsnap.io.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'airsnapio', // Usually your GitHub org/user name.
+  projectName: 'airsnap-docs', // Usually your repo name.
 
   presets: [
     [
@@ -22,17 +22,13 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/airsnapio/airsnap-docs/tree/master/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -46,7 +42,7 @@ const config = {
       navbar: {
         title: 'AirSnap',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'AirSnap',
           src: 'img/as-icon.png',
         },
         items: [
@@ -72,7 +68,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/quick-start/intro',
+                to: '/',
               },
             ],
           },
@@ -95,7 +91,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} AirSnap. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

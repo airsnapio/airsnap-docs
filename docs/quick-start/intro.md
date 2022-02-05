@@ -1,8 +1,9 @@
 ---
+slug: /
 sidebar_position: 1
 ---
 
-# Intro
+# Introduction
 
 AirSnap helps product development teams **reduce time spent on support request, debugging, and visualize customer interactions through Session Replay**.
 
