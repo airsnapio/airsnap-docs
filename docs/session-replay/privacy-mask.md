@@ -14,15 +14,16 @@ AirSnap's session replay is based on drawing operations, where text, images, and
 
 import PrivacyImageUrl from '@site/static/img/privacy-mask.png';
 
-<img src={PrivacyImageUrl} />
-=======
+# <img src={PrivacyImageUrl} />
+
 :::info
 
 AirSnap's session replay is based on drawing operations, where text, images, and personal data are
 masked at the source by default, such that masked data never leaves a user's device.
 
 :::
->>>>>>> 596fcdc612d4adb7bb67b2ce578ff04ea9faf5aa
+
+> > > > > > > 596fcdc612d4adb7bb67b2ce578ff04ea9faf5aa
 
 You can disable the privacy mask by passing the following parameter to `AirSnap.start`
 
@@ -36,7 +37,7 @@ values={[
 <TabItem value="reactNative">
 
 ```jsx title="React Native"
-AirSnap.start('<api-key>', 'unmask'); // "mask" or "unmask"
+AirSnap.start('<api-key>', 'unmask') // "mask" or "unmask"
 ```
 
 </TabItem>
