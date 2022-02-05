@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const config = {
   title: 'AirSnap',
   tagline: 'Session Replay for Mobile Apps',
-  url: 'https://docs.airsnap.io.com/',
+  url: 'https://docs.airsnap.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -39,10 +39,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'AirSnap',
         logo: {
-          alt: 'AirSnap',
-          src: 'img/as-icon.png',
+          alt: 'Site Logo',
+          src: 'logos/logo.svg',
+          srcDark: 'logos/logo-light.svg',
         },
         items: [
           {
