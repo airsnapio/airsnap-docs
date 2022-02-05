@@ -49,7 +49,9 @@ let package = Package(
 </TabItem>
 
 <TabItem value="carthage">
-Currently unsupported. Please request if you'd like to see support here.
+
+Currently unsupported. Please [create an issue](https://github.com/airsnapio/airsnap-ios/issues/new) if you'd like to see support here.
+
 </TabItem>
 </Tabs>
 
