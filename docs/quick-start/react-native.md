@@ -9,7 +9,7 @@ import TabItem from '@theme/TabItem';
 
 ## Installation
 
-### What you'll need
+**Requirements**
 
 - [React Native](https://reactnative.dev/) version 60 or above:
 - iOS 10+
