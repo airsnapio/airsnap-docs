@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 import Tabs from '@theme/Tabs';
@@ -23,7 +23,7 @@ values={[
 Returns the current session ID
 
 ```jsx
-const sessionId = await AirSnap.getSessionId()
+const sessionId = await AirSnap.getSessionId();
 ```
 
 <h2>getUserId</h2>
@@ -31,7 +31,7 @@ const sessionId = await AirSnap.getSessionId()
 Returns the user ID that is used to distinguish users. This can be a custom identifier that you set, otherwise it will use the [IDFV Device ID](https://app.airsnap.io/) by default.
 
 ```jsx
-const userId = await AirSnap.getUserId()
+const userId = await AirSnap.getUserId();
 ```
 
 <h2>setUserId</h2>
@@ -39,11 +39,11 @@ const userId = await AirSnap.getUserId()
 Sets the user ID that is used to distinguish users. This can be the internal identifier for your application. If param is an empty string or `null`, it will reset the identifier back to the Device ID.
 
 ```jsx
-AirSnap.setUserId('john.doe@airsnap.io')
+AirSnap.setUserId('john.doe@airsnap.io');
 
 // Resets user id to device id. Ex: logging out
-AirSnap.setUserId('')
-AirSnap.setUserId()
+AirSnap.setUserId('');
+AirSnap.setUserId();
 ```
 
 </TabItem>
